@@ -1,0 +1,5 @@
+.downbar{
+    display: flex;
+    background-color:rgb(47, 141, 70);
+    justify-content: center;
+}

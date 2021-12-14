@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<article xmlns="http://www.w3.org/1999/xhtml">
+    <h1>
+        <img src="vigenere-cipher-javascript.png" /> Vigenère
+        cipher (JavaScript)
+    </h1>
+
+    <h2>Program</h2>
+    <noscript>
+        <p>
+            This requires JavaScript, which is not supported by your browser or is
+            disabled.
+        </p>
+    </noscript>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="vigener.js"></script>
+    <table class="noborder">
+        <tbody>
+            <tr>
+                <td><label for="text">Text:</label></td>
+                <td>
+                    <textarea id="text" cols="50" rows="10" style="width: 40em; height: 15em">
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="key">Key:</label></td>
+                <td><input type="text" value="abc" id="key" style="width: 10em" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="app.doCrypt(false);">Encrypt</button>
+                    <button onclick="app.doCrypt(true);">Decrypt</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Description</h2>
+    <p>
+        This JavaScript program encrypts and decrypts messages using the Vigenère
+        cipher. The key must have at least one letter. The key is case-insensitive
+        and non-letters are ignored. When encrypting or decrypting, the case is
+        preserved, and non-letters are unchanged. The Caesar cipher is a special
+        case of the Vigenère cipher with a one-letter key.
+    </p>
+</article>

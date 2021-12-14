@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vigenere</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style7.css">
+<body>
+    <!--Vigenere Cipherrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-->
+
+  <div class="vigenerecipher"></div>
+  <h1>Vigenere Cipher</h1>
+  <p> It is designed by Blaise de vigenere.It is an algorithm that is used to encryption and decryption the text. It is an example of polyalphabetic substitution ciphers. This algorithm is easy to understand and implement. <br> The encryption is done using two methods </p>
+  <p>1. vigenere table is given <br>Plain text: GIVE MONEY <br>key: LOCK</p>
+
+  <img src="Vigenere.png" alt="vigenerecipher">
+
+  
+
+  
+
+  <p><b>Encryption</b></p>
+
+  <img src="vigenere1.png" alt="..">
+  
+  <p>Repeat the letters of key so that number of letters in plain text are equal to the letters in the key</p>
+
+  <p><b>Decryption</b></p>
+  <img src="Vigenere2.png" alt="">
+
+  
+   
+
+  <p> <u><b>Second method</b></u>
+    Without Table</p>
+
+  <p>1. Encryption: Ciphered text= (Plain text + key)%26 <br>
+    2. Decryption: Plain text= (Ciphered text - key)%26</p>
+
+  <p>Plain text: she is listening <br> key: PASCAL</p>
+  <p><b>Encryption</b></p>
+  <img src="vigenere3.png" alt="">
+
+
+  
+
+
+
+  <p><b>Decryption</b></p>
+  <img src="vigenere4.png" alt="">
+
+
+  <br><br>
+  <p><b>Infographics</b></p>
+  <img src="vigenereinfo.jpeg" alt="vigenereinfographics">
+
+  <pre>
+
+
+  </pre>
+
+  <br>
+  <p><b>See animated video to understand </b></p>
+  <video width="1300" height="500" controls 
+       src="vigenerevedio.mp4"></video>
+  <a href="https://youtu.be/Xjzx8FMc9do">video link</a>
+  
+
+</body>
+</html>
+
+<article xmlns="http://www.w3.org/1999/xhtml">
+    <p><u><b>Tool</b></u></p>
+    
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="vigener.js"></script>
+    <table class="noborder">
+        <tbody>
+            <tr>
+                <td><label for="text">Text:</label></td>
+                <td>
+                    <textarea id="text" cols="50" rows="10" style="width: 40em; height: 15em">
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="key">Key:</label></td>
+                <td><input type="text" value="abc" id="key" style="width: 10em" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="app.doCrypt(false);">Encrypt</button>
+                    <button onclick="app.doCrypt(true);">Decrypt</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+</article>
+ <br><br><br>
+
+ <footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <i class="fab fa-slack"></i>
+        <span class="logo_name">Easy Cryptography</span>
+      </div>
+     
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shift.html">Shift Cipher</a></li>
+        <li><a href="monoalphabetic.html">Monoalphabetic Cipher</a></li>
+        
+      </ul>
+      <ul class="box">
+        
+        <li><a href="verman.html">Verman Cipher</a></li>
+        <li><a href="playfair.html">Playfair Cipher</a></li>
+        
+      </ul>
+      <ul class="box">
+        
+        <li><a href="vigenere.html">Vigenere Cipher</a></li>
+        <li><a href="railfence.html">Railfence Technique</a></li>
+        <li><a href="autokey.html">Autokey Cipher</a></li>
+        
+      </ul>
+     
+      
+    </div>
+  </div>
+  
+      </span>
+    </div>
+  </div>
+</footer>

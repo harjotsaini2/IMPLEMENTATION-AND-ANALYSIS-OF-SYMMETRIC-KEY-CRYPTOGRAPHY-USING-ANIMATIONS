@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playfair</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style7.css">
+<link rel="stylesheet" href="style8.css">
+<body>
+    <!--Playfair Cipherrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-->
+    <div class="playfair cipher"></div>
+    <h1>Playfair Cipher</h1>
+    <p>It was invented in 1854 by Charles wheatstones.But was named after Lord playfair, who promoted  the use of cipher.
+      The well known multiple letter substitution cipher is the Play fair cipher. It is relatively easy to break because it still leaves much of the structure and a few hundred of letters of cipher text are sufficient.. This cipher mainly relied on polyalphabetic cipher. This method arranges the plaintext in table based on key value.This is illustrated as follows with key. <br> <br>
+      
+    </p>
+    <p>EXAMPLE: 
+      Key – “Playfair example”<br>
+      Plain text – “Hide the gold in the tree stump”<br>
+       5x5 matrix constructed using a keyword <br>
+
+      </p>
+    <img src="playfair1.png" alt="">
+    <pre> 
+
+
+    </pre>
+    <img src="playfair2.png" alt="">
+    <pre>
+
+
+      Here, we used the following rules-
+      1.	If both the alphabets are in the same row replace them with alphabets to their intermediate right.
+      2.	If both the alphabets are in the same column , replace the with alphabets immediate below them.
+      3.	If not in same row/column , replace them with alphabets in the same row respectively, but at other pair of corners.
+      
+
+          </pre>
+      
+
+  </div>
+  <pre>
+
+
+  </pre>
+
+ <br>
+ <p><b>Infographics</b></p>
+ <img src="playfairinfo.jpeg" alt="playfairinfographics">
+  
+  
+<br>
+<p><b>See animated video to understand </b></p>
+<video width="1300" height="500" controls 
+       src="Playfair.mp4"></video>
+
+  <a href="https://youtu.be/4TJoL03UewE">video link</a>
+
+<br><br><br>
+<p><b><u>Tool</u></b></p>
+
+
+
+<div id="inSec">
+  <p id="inputT">Keyword: </p>
+  <input id="intext" type="text" name="keyword">
+  <button id="subButton" type="button">Submit</button><br>
+<div id="EDMenu">
+  <p id="inputT">Select Operation To Proceed: </p>
+  <button id="encButton0" type="button">Encrypt</button>
+  <button id="decButton0" type="button">Decrypt</button>
+</div>
+</div>
+
+<!-- need to use "strip" function in encrypt.js -->
+<script src="encrypt.js"></script>
+<script src="index.js"></script>
+
+
+<br><br><br>
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-slack"></i>
+          <span class="logo_name">Easy Cryptography</span>
+        </div>
+       
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shift.html">Shift Cipher</a></li>
+          <li><a href="monoalphabetic.html">Monoalphabetic Cipher</a></li>
+          
+        </ul>
+        <ul class="box">
+          
+          <li><a href="verman.html">Verman Cipher</a></li>
+          <li><a href="playfair.html">Playfair Cipher</a></li>
+          
+        </ul>
+        <ul class="box">
+          
+          <li><a href="vigenere.html">Vigenere Cipher</a></li>
+          <li><a href="railfence.html">Railfence Technique</a></li>
+          <li><a href="autokey.html">Autokey Cipher</a></li>
+          
+        </ul>
+       
+        
+      </div>
+    </div>
+    
+        </span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

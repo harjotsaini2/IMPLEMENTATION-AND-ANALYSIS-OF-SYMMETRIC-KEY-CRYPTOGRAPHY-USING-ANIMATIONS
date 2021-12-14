@@ -1,0 +1,143 @@
+<style>/* Google Font Import Link */
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+      *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        transition: all 0.4s ease;
+    
+    }
+    .vigenerecipher{
+      text-align: center;
+      background-color: aqua;
+    }
+    nav{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      transition: all 0.4s ease;
+    }
+    nav.sticky{
+      padding: 15px 20px;
+      background: rgb(47, 141, 70);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    nav .nav-content{
+      font-family: 'Stylish', sans-serif;
+      height: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo a{
+      font-weight: 500;
+      font-size: 35px;
+      color: rgb(47, 141, 70);
+    }
+    nav.sticky .logo a{
+      color: #fff;
+    }
+    .nav-content .nav-links{
+      display: flex;
+    }
+    .nav-content .nav-links li{
+      list-style: none;
+      margin: 0 8px;
+    }
+     .nav-links li a{
+      text-decoration: none;
+      color: #0E2431;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px 4px;
+      transition: all 0.3s ease;
+    }
+     .nav-links li a:hover{
+       color: #4070f4;
+     }
+     nav.sticky .nav-links li a{
+       color: #fff;
+       transition: all 0.4s ease;
+    }
+     nav.sticky .nav-links li a:hover{
+      color: #0E2431;
+    }
+    .home{
+      height: 100vh;
+      width: 100%;
+      background: url("images/background.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    h2{
+      font-size: 30px;
+      margin-bottom: 6px;
+      background-color: rgb(47, 141, 70);
+      text-align: center;
+      color: white;
+      font-size: 500%;
+      font-weight: bolder;
+    }
+    .text{
+      text-align: justify;
+      padding: 40px 80px;
+      box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    body{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    table, th, td {
+      text-align: center;
+      color: white;
+      border: 1px solid white;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      background-color:rgb(47, 141, 70);
+    }
+
+    pre{
+      text-align: justify;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1{
+      color: rgb(47, 141, 70);
+      text-align:center;
+      font-size: 250%;
+     
+    }
+    img{
+      image-orientation: flip;
+      
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    
+    </style>
+
+</body>
+</html>
