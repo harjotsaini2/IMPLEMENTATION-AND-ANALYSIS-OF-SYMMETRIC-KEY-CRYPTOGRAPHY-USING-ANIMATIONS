@@ -1,0 +1,2 @@
+# IMPLEMENTATION-AND-ANALYSIS-OF-SYMMETRIC-KEY-CRYPTOGRAPHY-USING-ANIMATIONS
+Take all these files in one folder and open index.html 
